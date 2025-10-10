@@ -39,6 +39,15 @@ public class Main {
         }
         System.out.println();
 
+        for (int i = 0; i < names.length; i++) {
+            if (i == names.length - 1) {
+                System.out.print(names[i]);
+                break;
+            }
+            System.out.print(names[i] + ", ");
+        }
+        System.out.println();
+
         // task 3
 
         for (int index1 = num.length - 1; index1 >= 0; index1--) {
@@ -56,6 +65,16 @@ public class Main {
             }
             System.out.print(num2[index2] + ", ");
         }
+        System.out.println();
+
+        for (int f = names.length - 1; f >= 0; f--) {
+            if (f == 0) {
+                System.out.print(names[f]);
+                break;
+            }
+            System.out.print(names[f] + ", ");
+        }
+
 
         // task 4
         System.out.println();
